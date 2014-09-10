@@ -1,0 +1,25 @@
+'editor':
+  'preferredLineLength': 120
+  'showIndentGuide': true
+  'fontFamily': 'mplus-1mn-regular'
+  'fontSize': 14
+  'invisibles': {}
+'core':
+  'themes': [
+    'seti-ui'
+    'monokai'
+  ]
+  'ignoredNames': [
+    '.git'
+    '.svn'
+    '.DS_Store'
+  ]
+  'audioBeep': false
+'exception-reporting':
+  'userId': '27e5bd3f-a726-3af3-2566-9e1d966f1beb'
+'release-notes':
+  'viewedVersion': '0.81.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': '16ae327c80bdc1a1a93d7a684515599109a47157'
