@@ -1,5 +1,6 @@
-export PATH="/usr/local/bin:/usr/local/sbin:~/bin:/usr/local/mysql/bin:~/dev/tools/play:/usr/local/share/npm/bin:$PATH"
-export MAVEN_OPTS='-Xms512M -Xmx1024M';
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:/usr/local/mysql/bin:/usr/local/share/npm/bin:$PATH"
+export MAVEN_OPTS='-Xms512M -Xmx1024M'
+
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
@@ -44,5 +45,4 @@ complete -o "nospace" -W "Finder Dock Mail Safari iTunes iCal Address\ Book Syst
 if [ -f /usr/local/etc/bash_completion ]; then
   . /usr/local/etc/bash_completion
 fi
-
-
+eval "$(jenv init -)"
